@@ -3,7 +3,7 @@ class Main{
       //Take user input
         String x="10";
         String y="20";
-        String a="30";
+        int a=30;
         int b=40;
         String w="10";
         int e=20;  
