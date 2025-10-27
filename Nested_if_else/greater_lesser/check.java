@@ -4,9 +4,10 @@ class Main{
         int y=20;
         if(x>6){
             System.out.println("Greater!!");
-        }
+        
         if(y<21){
             System.out.println("Lesser!!");
+        }
         }
     }
 }
