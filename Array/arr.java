@@ -19,6 +19,15 @@ class Main{
         car[2]="Waganor";
         car[3]="Swift";
         System.out.println(car[0]);
+        System.out.println("===Loop through an array===");
+        for (String n : car){
+            System.out.println(n);
+        }
+         System.out.println("===Loop through an array(Another method)===");
+         for (int i=0 ; i<car.length;i++){
+             System.out.println(car[i]);
+         }
+    
     
 }
          
