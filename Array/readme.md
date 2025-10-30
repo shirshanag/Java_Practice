@@ -10,5 +10,15 @@ Wagonar
 3
 ===Creating Array with new keyword===
 Audi
+===Loop through an array===
+Audi
+BMW
+Waganor
+Swift
+===Loop through an array(Another method)===
+Audi
+BMW
+Waganor
+Swift
 
 ```
