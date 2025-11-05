@@ -1,3 +1,4 @@
+Encapsulation is to make sure that 'sensitive' data is hidden from the user
 Output
 ```
 Main.java:19: error: name has private access in Student
