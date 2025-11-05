@@ -1,4 +1,4 @@
-Outout
+Output
 ```
 Name:John
 Graduation year:1998
