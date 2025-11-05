@@ -5,7 +5,7 @@ class Main{
 }
 class Name extends Main{
     public Name(){
-        super();
+        super();//call parent constructor
         System.out.println("Subclass Constructor is created!!");
     }
 }
