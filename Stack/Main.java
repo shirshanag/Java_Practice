@@ -1,3 +1,7 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
 interface StackADT{
     void  push(int element);
     int pop();
@@ -16,7 +20,7 @@ class Stack implements StackADT{
         stack[++top]=element;
     }
     public int pop(){
-        return stack[--top];
+        return stack[top--];
     }
     public int peek(){
         return stack[top];
@@ -31,6 +35,7 @@ class Main{
         stack.push(10);
         stack.push(20);
         stack.push(30);
-        System.out.println(stack.pop());
+        System.out.println("Poped element:"+stack.pop());
+        System.out.println("Top Element:"+stack.peek());
     }
 }
