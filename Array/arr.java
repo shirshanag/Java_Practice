@@ -27,6 +27,30 @@ class Main{
          for (int i=0 ; i<car.length;i++){
              System.out.println(car[i]);
          }
+         System.out.println("===All Elements in Array===");
+        double [] arr={10.8,20.7,30.5,40.4};
+        //Print all elements in an array
+        for (int i=0;i<arr.length;i++){
+            System.out.println(arr[i]);
+        }
+        //Total of array
+        double total=0;
+        for (int i=0;i<arr.length;i++){
+            total=total+arr[i];
+        }
+         System.out.println("===Sum in array===");
+         System.out.println("Total in array:"+total);
+        //Max element
+        double max=arr[0];
+         for (int i=0;i<arr.length;i++){
+        if (arr[i]>max){
+            max=arr[i];
+        }
+        
+         }
+         System.out.println("===Max Element===");
+         System.out.println("Max:"+max);
+        
     
     
 }
