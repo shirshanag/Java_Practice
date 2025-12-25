@@ -21,4 +21,14 @@ BMW
 Waganor
 Swift
 
+===All Elements in Array===
+10.8
+20.7
+30.5
+40.4
+===Sum in array===
+Total in array:102.4
+===Max Element===
+Max:40.4
+
 ```
