@@ -1,4 +1,4 @@
-
+//Taking  input from user using scanner
 class Main
 {
 	public static void main (String[] args) 
