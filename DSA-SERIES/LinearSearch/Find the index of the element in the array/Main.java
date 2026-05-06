@@ -11,7 +11,7 @@ class Codechef
 		int num=4; 
 		for(int i=0;i<arr.length;i++){
 		    if(arr[i]==num){
-		        System.out.println(i);
+		        System.out.println("The index of element:"+i);
 		    }
 		}
 
